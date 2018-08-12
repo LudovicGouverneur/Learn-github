@@ -1,7 +1,10 @@
 # Learn Github
 
 ## Description : 
-Contains knowledge and ressources about git and github : 
+Contains knowledge and ressources about git and github.
+
+## WHat is it?
+  * VCS : version control system
 
 ## Links
 
