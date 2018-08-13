@@ -1,18 +1,16 @@
-# Learn Github
 
 ## Description : 
 Contains knowledge and ressources about git and github.
 
 ## WHat is it?
   * VCS : version control system
-
 ## Links
 
 ### youtube 
   * [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
 
 ## Commands
- * 'git init'
+ * `git init`
  * 'git touch' : create a file
  * 'git nano' : edit a file in the "console"?
  * git add file.ext
