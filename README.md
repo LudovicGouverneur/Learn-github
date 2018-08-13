@@ -24,9 +24,9 @@ Contains knowledge and ressources about git and github.
      * preceding ID
      * ...
  * `clear` : clear the terminal console
- * `git ignore or .gitignore` : to specify the file we don't want to include
-   * `touch .gitignore`
+ * `git ignore or .gitignore` : to specify the file/folder we don't want to include
+   * `touch .gitignore``
    * open the file 
-   * type the name of the file you want to ignore
+   * type the name of the file/dir you want to ignore
    * Will not be taken in consideration for commands like 'git add.'
  
