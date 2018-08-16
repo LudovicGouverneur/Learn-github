@@ -9,7 +9,7 @@ Contains knowledge and ressources about git and github.
 
 ### youtube 
   * [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
------------
+---
 * [Elewa course video] https://www.youtube.com/watch?v=1ffBJ4sVUb4
   * [LearnGitBranching.js.org](http://learngitbranching.js.org/)
 
