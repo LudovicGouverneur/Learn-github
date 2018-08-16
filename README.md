@@ -20,7 +20,7 @@ Contains knowledge and ressources about git and github.
  * `git add` :
    * `git add .` : adds all the files to the staging area
  * `git commit` : wrap all the files in the staging area in a commit object. It attaches an ID and two labels to that object  : the checkout and the branch name.
-   * id : the idea is the checsum of 
+   * id : the id is the checsum of 
      * author
      * files in staging area
      * preceding ID
