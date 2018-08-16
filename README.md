@@ -17,7 +17,7 @@ Contains knowledge and ressources about git and github.
 
 >In order to do VCS in a working directory, one must create a .git repository. This .git folder is nothing but an "empty folder structure". It contains all what is needed to work with git.
 
- * git init : create a .git repository
+ * `git init` : create a .git repository
 
 This folder is "hidden". To unhide it, follows [these steps]()
 
