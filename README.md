@@ -15,7 +15,7 @@ Contains knowledge and ressources about git and github.
 ## Commands
 ### [init] Create a git repo
 
->In order to do VCS in a working directory, one must create a .git repository. This .git folder is nothing but an "empty folder structre". It contains all what is needed to work with git.
+>In order to do VCS in a working directory, one must create a .git repository. This .git folder is nothing but an "empty folder structure". It contains all what is needed to work with git.
 
  * git init : create a .git repository
 
