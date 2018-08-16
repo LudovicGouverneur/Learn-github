@@ -19,7 +19,7 @@ Contains knowledge and ressources about git and github.
 
  * git init : create a .git repository
 
-This folder is "hidden". To unhide it, follows ==these== ==steps== 
+This folder is "hidden". To unhide it, follows [these steps]() 
  * git touch : create a file
 git nano : edit a file in the "console"?
 git add file.ext
