@@ -13,13 +13,15 @@ Contains knowledge and ressources about git and github.
   * [LearnGitBranching.js.org](http://learngitbranching.js.org/)
 
 ## Commands
-### Creating a git repo
+### [init] Create a git repo
 
 >In order to do VCS in a working directory, one must create a .git repository. This .git folder is nothing but an "empty folder structre". It contains all what is needed to work with git.
 
  * git init : create a .git repository
 
-This folder is "hidden". To unhide it, follows [these steps]() 
+This folder is "hidden". To unhide it, follows [these steps]()
+
+### Creating a file
  * git touch : create a file
 git nano : edit a file in the "console"?
 git add file.ext
