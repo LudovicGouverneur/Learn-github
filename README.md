@@ -8,9 +8,18 @@ Contains knowledge and ressources about git and github.
 ## Links
 
 ### youtube 
-  * [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
-  * [Elewa course video] https://www.youtube.com/watch?v=1ffBJ4sVUb4
-  * [LearnGitBranching.js.org](http://learngitbranching.js.org/)
+  * Series : [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
+  * Conference : [Linux Conference - 4 years old] https://www.youtube.com/watch?v=1ffBJ4sVUb4
+  * Exercices : [LearnGitBranching.js.org](http://learngitbranching.js.org/)
+
+## Actions
+### Merging
+ * Desription : Combining the content of two branches
+####  First method : `git merge`
+
+
+ 
+
 
 ## Commands
 ### [init] Create a git repo
