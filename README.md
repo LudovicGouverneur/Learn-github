@@ -16,6 +16,8 @@ Contains knowledge and ressources about git and github.
 ### Merging
  * Desription : Combining the content of two branches
 ####  First method : `git merge`
+create un special commit with two parents.
+In other words : I want ot include the content of these two parents and all their own parens.
 
 
  
