@@ -13,7 +13,8 @@ Contains knowledge and ressources about git and github.
   * Series : [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
   * Conference : [Linux Conference - 4 years old] https://www.youtube.com/watch?v=1ffBJ4sVUb4
   * Exercices : [LearnGitBranching.js.org](http://learngitbranching.js.org/)
-
+### Elewa 
+  * [pushing and merging](https://github.com/elewa-academy/pull-requesting-and-merging)
 ## Actions
 ### Merging
  * Desription : Combining the content of two branches
