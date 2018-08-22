@@ -30,32 +30,31 @@ In other words : I want ot include the content of these two parents and all thei
 This folder is "hidden". To unhide it, follows [these steps]()
 
 ### Creating a file
- * git touch : create a file
+ * 'git touch' : create a file
 ### Editing a file
- * git nano : edit a file in the "console"?
- * Modify it in your text editor (ie Visual Studio, atom, ...)
+ * 'git nano'  : edit a file in the "console"?
+ * text editor : modify it in your text editor (ie Visual Studio, atom, ...)
 ### Adding a file to the staging area
  * The staging area is 
-   * a _place_ where you put all the files you want to put in the git tree. These files must be have been modified.
- * git add file.ext 
- * git add :
- * git add . : adds all the files to the staging area
- 
- * git commit : wrap all the files in the staging area in a commit object. It attaches an ID and two labels to that object :
+   * a place where you put all the files you want to put in the git tree. 
+   * these files must be have been modified.
+ * 'git add'   : file.ext 
+ * 'git add .' : adds all the files to the staging area
+### Commit  
+ * 'git commit': wraps all the files in the staging area in a commit object. It attaches an ID and two labels to that object :
      * the branch where we last checked out 
      * the branch name.
- 
-     * id : the id is the checksum of
+ *  id : the 'id' is a unique number attached to any commit. It is the _checksum_ of
          * .author
-         *  files in staging area
+         *  files in staging area'
          *  preceding ID
          *  ...
-
- 
+ *  'git ignore' or 'git .gitignore' : to specify the file/folder we don't want to include in the commit
+### Useful commands
  *  git status : check what is in the staging area and compare it with the files created/modified
  *  clear : clear the terminal console
  
- *  git ignore or .gitignore : to specify the file/folder we don't want to include
+ 
  *  touch .gitignore
  *  open the file
  *  type the name of the file/dir you want to ignore
