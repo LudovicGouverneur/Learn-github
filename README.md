@@ -15,6 +15,7 @@ Contains knowledge and ressources about git and github.
   * Exercices : [LearnGitBranching.js.org](http://learngitbranching.js.org/)
 ### Elewa 
   * [pushing and merging](https://github.com/elewa-academy/pull-requesting-and-merging)
+  * [Easy to do's](http://rogerdudler.github.io/git-guide/)
 ## Actions
 ### Merging
  * Desription : Combining the content of two branches
