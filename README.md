@@ -15,38 +15,46 @@ Contains knowledge and ressources about git and github.
 ## Actions
 ### Merging
  * Desription : Combining the content of two branches
+
 ####  First method : `git merge`
 create un special commit with two parents.
 In other words : I want ot include the content of these two parents and all their own parens.
-
-
- 
-
 
 ## Commands
 ### [init] Create a git repo
 
 >In order to do VCS in a working directory, one must create a .git repository. This .git folder is nothing but an "empty folder structure". It contains all what is needed to work with git.
-
+-
  * `git init` : create a .git repository
 
 This folder is "hidden". To unhide it, follows [these steps]()
 
 ### Creating a file
  * git touch : create a file
- *  git nano : edit a file in the "console"?
+### Editing a file
+ * git nano : edit a file in the "console"?
+ * Modify it in your text editor (ie Visual Studio, atom, ...)
+### Adding a file to the staging area
+ * The staging area is 
+   * a _place_ where you put all the files you want to put in the git tree. These files must be have been modified.
  * git add file.ext 
- * git status : check what is in the staging area and compare it with the files created/modified
  * git add :
-     * git add . : adds all the files to the staging area
-     * git commit : wrap all the files in the staging area in a commit object. It attaches an ID and two labels to that object : the          * checkout and the branch name.
+ * git add . : adds all the files to the staging area
+ 
+ * git commit : wrap all the files in the staging area in a commit object. It attaches an ID and two labels to that object :
+     * the branch where we last checked out 
+     * the branch name.
+ 
      * id : the id is the checksum of
- * .author
- *  files in staging area
- *  preceding ID
- *  ...
- *  git commit -m "comment about the commit"
+         * .author
+         *  files in staging area
+         *  preceding ID
+         *  ...
+
+ 
+ *  git status : check what is in the staging area and compare it with the files created/modified
  *  clear : clear the terminal console
+ 
  *  git ignore or .gitignore : to specify the file/folder we don't want to include
  *  touch .gitignore
  *  open the file
@@ -63,3 +71,4 @@ This folder is "hidden". To unhide it, follows [these steps]()
  * git push -u origin master
  * git clone http....
  * git pull
+     
