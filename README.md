@@ -3,7 +3,9 @@ This is the change I made from gitbash editor, and pushed to github
 ## Description : 
 Contains knowledge and ressources about git and github.
 
-## WHat is it?
+## What is it?
+>The idea of git, is that when you are finished doing the changes on you computer, you want to put it where it could be accessed by anyone. Github is such a tool.
+
   * VCS : version control system
 ## Links
 
@@ -45,29 +47,31 @@ This folder is "hidden". To unhide it, follows [these steps]()
      * the branch where we last checked out 
      * the branch name.
  *  id : the 'id' is a unique number attached to any commit. It is the _checksum_ of
-         * .author
-         *  files in staging area'
-         *  preceding ID
-         *  ...
+     * .author
+     *  files in staging area'
+     *  preceding ID
+     *  ...
  *  'git ignore' or 'git .gitignore' : to specify the file/folder we don't want to include in the commit
+    *  Examletouch .gitignore
+         *  open the file
+         *  type the name of the file/dir you want to ignore
+         *  Will not be taken in consideration for commands like 'git add.'
+### Branches 
+
+When working with other developpers, you don't want the workflow and the files to be messy or even loose some documents in the process. You can create a branch to work on, which is different from the main project branch. You can add and commit to that branch, it will not affect the main branch (which is called Master branch), as other developpers are working on it.
+
+Let's travel through the git tree : 
+ * go in a folder, create/modify a file
+ * 'git branch login' (login is the name of the new branch)
+ * 'git checkout login' : which switches from "master branch" to "login branch"
+ * Make the changes you want by _editing_ => _adding_ => _commiting_ ...
+ * 'git checkout master' : go back in the master branch. You can see that changes you made on the "login branch" don't exist in master. Once you have done all the changes or added files to you working branch (login), you can merge both branches back.
+ * 'git merge login' : from master branch, it merges the login branch to the master branch.
+ * 'git remote add origin "https....."'
+ * 'git push -u origin master'
+ * 'git clone http....'
+ * 'git pull'
+     
 ### Useful commands
  *  git status : check what is in the staging area and compare it with the files created/modified
  *  clear : clear the terminal console
- 
- 
- *  touch .gitignore
- *  open the file
- *  type the name of the file/dir you want to ignore
- *  Will not be taken in consideration for commands like 'git add.'
- * Branches : when working with other developpers, you create a branch to work on which is different form the main project branch. So you can add and commit to that branch, it will not affect the main branch (which is called Master branch) other developpers are working on.
- * git branch login (login is the name of the new branch)
- * git checkout login : which switches from "master branch" to "login branch"
- * Make the changes you want by adding, commiting, etc
- * git checkout master : go back in the master branch. You can see that changes you made on the "login branch" don't exist in master. Once you have done all the changes or added files to you working branch (login), you can merge both branches back.
- * git merge login : from master branch, it merges the login branch to the master branch.
- * The idea of git, is that when you are finished doing the changes on you computer, you want to put it where it could be accessed by anyone. Github is such a tool.
- * git remote add origin "https....."
- * git push -u origin master
- * git clone http....
- * git pull
-     
